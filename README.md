@@ -12,16 +12,16 @@
 ### サンプル出力と読み取り方
 
 - MLP 版（tanh, 層3）:  
-  [入力 (`layer-0`)](outputs/mapping_activation-tanh_layer-0_of-3_seed-0.png) |  
-  [1 層目後](outputs/mapping_activation-tanh_layer-1_of-3_seed-0.png) |  
-  [2 層目後](outputs/mapping_activation-tanh_layer-2_of-3_seed-0.png) |  
-  [3 層目後](outputs/mapping_activation-tanh_layer-3_of-3_seed-0.png)  
+  ![入力 (`layer-0`)](outputs/mapping_activation-tanh_layer-0_of-3_seed-0.png)
+  ![1 層目後](outputs/mapping_activation-tanh_layer-1_of-3_seed-0.png)
+  ![2 層目後](outputs/mapping_activation-tanh_layer-2_of-3_seed-0.png)
+  ![3 層目後](outputs/mapping_activation-tanh_layer-3_of-3_seed-0.png)  
   - グリッドが折り曲がり、局所的に引き伸ばされていく様子が見られます。
 - DGP 版（lengthscale=1.0, 層3）:  
-  [入力 (`layer-0`)](outputs_dgp/mapping_dgp_layer-0_of-3_ls-1.0_scale-1.0_seed-0.png) |  
-  [1 層目後](outputs_dgp/mapping_dgp_layer-1_of-3_ls-1.0_scale-1.0_seed-0.png) |  
-  [2 層目後](outputs_dgp/mapping_dgp_layer-2_of-3_ls-1.0_scale-1.0_seed-0.png) |  
-  [3 層目後](outputs_dgp/mapping_dgp_layer-3_of-3_ls-1.0_scale-1.0_seed-0.png)  
+  ![入力 (`layer-0`)](outputs_dgp/mapping_dgp_layer-0_of-3_ls-1.0_scale-1.0_seed-0.png)
+  ![1 層目後](outputs_dgp/mapping_dgp_layer-1_of-3_ls-1.0_scale-1.0_seed-0.png)
+  ![2 層目後](outputs_dgp/mapping_dgp_layer-2_of-3_ls-1.0_scale-1.0_seed-0.png)
+  ![3 層目後](outputs_dgp/mapping_dgp_layer-3_of-3_ls-1.0_scale-1.0_seed-0.png)  
   - 滑らかな RBF カーネルでも、層を重ねると領域がねじれたり分断されたりすることが分かります。
 
 ## 動かし方
