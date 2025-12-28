@@ -1,0 +1,3 @@
+- python は .venv 環境を利用すること
+  - `source .venv/bin/activate && python <script>`
+- python の依存パッケージは requirements.txt に記録すること
